@@ -19,7 +19,7 @@ const ApiService: ServiceSchema<ApiSettingsSchema> = {
 		},
 
 		// Exposed port
-		port: process.env.PORT != null ? Number(process.env.PORT) : 3000,
+		port: process.env.PORT != null ? Number(process.env.PORT) : 10000,
 
 		// Exposed IP
 		ip: "0.0.0.0",
