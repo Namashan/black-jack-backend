@@ -8,9 +8,9 @@ const appDataSource = new DataSource({
   password: '1yrsd0MNVft411BT2gB5GYuNEIa4tTFQ',
   database: 'black_jack_db',
   synchronize: true,
-  entities: ['db/entities/*.ts'],
-  migrations: ['db/migrations/*.ts'],
-  subscribers: ['db/subscribers/*.ts'],
+  entities: ['dist/db/entities/*.js'],
+  migrations: ['dist/db/migrations/*.js'],
+  subscribers: ['dist/db/subscribers/*.js'],
 });
 
 appDataSource.initialize()
